@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "check": "tsc --pretty --noEmit",
-    "generate": "generate-react-cli",
+    "generate-component": "generate-react-cli component",
     "prepare": "husky install"
   },
   "dependencies": {
