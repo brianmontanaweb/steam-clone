@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "check": "tsc --pretty --noEmit",
-    "generate": "generate-react-cli"
+    "generate": "generate-react-cli",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.0.4",
@@ -28,6 +29,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "generate-react-cli": "^8.4.0",
+    "husky": "^8.0.0",
     "jest": "^29.7.0",
     "jest-dom": "^4.0.0",
     "jest-environment-jsdom": "^29.7.0",
