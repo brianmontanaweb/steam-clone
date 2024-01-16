@@ -4,7 +4,7 @@ import AddGameForm from "./AddGameForm";
 
 describe("<AddGameForm />", () => {
   test("it should mount", () => {
-    render(<AddGameForm cancelHandler={() => {}} />);
+    render(<AddGameForm cancelHandler={() => {}} saveHandler={() => {}} />);
 
     const addGameForm = screen.getByTestId("AddGameForm");
 

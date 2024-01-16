@@ -4,7 +4,7 @@ import BasicModal from "./BasicModal";
 
 describe("<BasicModal />", () => {
   test("it should mount", () => {
-    render(<BasicModal>Hello</BasicModal>);
+    render(<BasicModal closeModalHandler={() => {}}>Hello</BasicModal>);
 
     const addGameModal = screen.getByTestId("BasicModal");
 

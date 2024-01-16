@@ -8,7 +8,7 @@ const Button: FC<ButtonProps> = ({ ...restProps }) => {
     <button
       data-testid="Button"
       {...restProps}
-      className={`bg-green-500 w-auto p-2 ${className || ""}`}
+      className={`bg-green-500 text-gray-900 w-auto p-2 ${className || ""}`}
     >
       {children}
     </button>
